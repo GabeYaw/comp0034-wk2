@@ -28,6 +28,6 @@ def create_app(test_config=None):
 
     with app.app_context():
     # Register the routes with the app in the context
-        from paralympics import paralympics
+        from paralympics import routes
 
     return app
